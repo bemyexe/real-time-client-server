@@ -1,12 +1,12 @@
-import {EventSourcing} from './event-sourcing';
-import {LongPolling} from './long-polling';
+import {WebSockets} from './websockets';
 
 export function App() {
   return (
     <div>
       <h1>App</h1>
       {/* <LongPolling /> */}
-      <EventSourcing />
+      {/* <EventSourcing /> */}
+      <WebSockets />
     </div>
   );
 }
